@@ -7,12 +7,29 @@
     line-height: 1.25;
     text-align: center;
     padding: 0;
-    margin: 16px 16px 40px;
+    margin: 16px 0 40px;
 }
 
 @media screen and (min-width: 768px) {
     .lead__subtitle {
         font-size: 30px;
         line-height: 1.2;
+        margin: 32px 0 56px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1279px) {
+    .lead__subtitle {
+        font-size: 30px;
+        line-height: 1.2;
+        margin: 32px 0 56px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__subtitle {
+        font-size: 30px;
+        line-height: 1.2;
+        margin: 32px 0 64px;
     }
 }
