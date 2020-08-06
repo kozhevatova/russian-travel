@@ -3,17 +3,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 48px 0 0 0;
+    padding: 15vw 0 0 0;
 }
 
 @media screen and (min-width: 1024px) and (max-width:1279px) {
     .lead {
-        margin: 0 48px 0;
+        margin: 0 4.69% 0;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .lead {
-        margin: 0 148px 0;
+        margin: 0 11.56% 0;
     }
 }

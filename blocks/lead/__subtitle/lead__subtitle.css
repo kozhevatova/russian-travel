@@ -7,14 +7,14 @@
     line-height: 1.25;
     text-align: center;
     padding: 0;
-    margin: 16px 0 40px;
+    margin: 5vw 0 12.5vw;
 }
 
 @media screen and (min-width: 768px) {
     .lead__subtitle {
         font-size: 30px;
         line-height: 1.2;
-        margin: 32px 0 56px;
+        margin: 4.17vw 0 7.29vw;
     }
 }
 
@@ -22,7 +22,7 @@
     .lead__subtitle {
         font-size: 30px;
         line-height: 1.2;
-        margin: 32px 0 56px;
+        margin: 3.125vw 0 5.47vw;
     }
 }
 
@@ -30,6 +30,6 @@
     .lead__subtitle {
         font-size: 30px;
         line-height: 1.2;
-        margin: 32px 0 64px;
+        margin: 2.5vw 0 5vw;
     }
 }

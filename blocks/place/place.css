@@ -3,26 +3,53 @@
     grid-template-columns: 100%;
     grid-template-rows: repeat(3, minmax(min-content, max-content));
     color: #fff;
-    padding-top: 64px;
-    margin: 0 16px 0;
+    margin-top: 20vw;
+    justify-content: center;
+    align-self: center;
 }
 
-@media screen and (min-width: 768px) and (max-width:1023px) {
+@media screen and (min-width: 768px) {
     .place {
+        margin: 0 3.125vw 9.375vw;
         grid-template-columns: repeat(2, minmax(min-content, max-content));
-        column-gap: 28px;
-        row-gap: 24px;
+        column-gap: 3.65vw;
+    }
+
+    .place:first-child {
+        margin-top: 11.46vw;
+    }
+
+    .place:last-child {
+        margin-bottom: 11.46vw;
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width:1279px) {
+@media screen and (min-width: 1024px) {
     .place {
-        
+        margin: 0 4.69vw 7.81vw;
+        column-gap: 3.125vw;
+    }
+
+    .place:first-child {
+        margin-top: 8.98vw;
+    }
+
+    .place:last-child {
+        margin-bottom: 8.98vw;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .place {
-        
+        margin: 0 11.56vw 6.25vw;
+        column-gap: 3.125vw;
+    }
+
+    .place:first-child {
+        margin-top: 7.19vw;
+    }
+
+    .place:last-child {
+        margin-bottom: 7.19vw;
     }
 }

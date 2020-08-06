@@ -5,7 +5,7 @@
     color: #fff;
     font-size: 18px;
     line-height: 1.33;
-    margin: 0 18px 0 0;
+    margin: 5.625vw 5.625vw 1.25vw 0;
     text-decoration: none;
 }
 
@@ -17,10 +17,32 @@
     text-decoration: underline;
 }
 
+@media screen and (min-width: 425px)
+{
+    .header__lang-link {
+        margin: 3.29vw 4.23vw 0.94vw 0;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width:1023px)
 {
     .header__lang-link {
         font-size: 24px;
         line-height: 1.17;
+        margin: 2.34vw 2.34vw 0.78vw 0;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px)
+{
+    .header__lang-link {
+        margin: 1.76vw 1.76vw 1.41vw 0;
+    }
+}
+
+@media screen and (min-width: 1280px)
+{
+    .header__lang-link {
+        margin: 0 1.41vw 0.47vw 0;
     }
 }

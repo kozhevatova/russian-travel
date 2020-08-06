@@ -2,12 +2,34 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 14px 0 4px;
+    /* padding: 0 0 1.25vw;  */
 }
 
-@media screen and (min-width: 425px)
+/* @media screen and (min-width: 425px)
 {
     .header__lang-links {
-        margin: 18px 0 6px;
+        padding: 0 0 1.41vw;
     }
 }
+
+@media screen and (min-width: 768px)
+{
+    .header__lang-links {
+        padding: 0 0 0.78vw;
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    .header__lang-links {
+        padding: 0 0 1.41vw;
+    }
+}
+
+@media screen and (min-width: 1280px)
+{
+    .header__lang-links {
+        padding: 0 0 0.47vw;
+    }
+} */
+

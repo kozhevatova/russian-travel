@@ -3,30 +3,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 64px;
-    margin: 0 16px 0;
+    padding-top: 20vw;
+    margin: 0 5% 0;
     color: #fff;
 }
 
 @media screen and (min-width: 768px) and (max-width:1023px) {
     .intro {
-        padding-top: 88px;
-        margin: 0 24px 0;
+        padding-top: 11.46vw;
+        margin: 0 3.125% 0;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width:1279px) {
     .intro {
-        padding-top: 92px;
-        margin: 0 48px 0;
+        padding-top: 8.98vw;
+        margin: 0 4.69% 0;
         max-width: 690px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .intro {
-        padding-top: 92px;
-        margin: 0 148px 0;
+        padding-top: 7.19vw;
+        margin: 0 11.56% 0;
         max-width: 690px;
     }
 }

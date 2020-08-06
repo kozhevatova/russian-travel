@@ -1,31 +1,31 @@
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px,1fr));
-    gap: 12px;
-    margin: 0 16px 0;
-    padding-top: 64px;
+    gap: 3.75vw;
+    margin: 0 5vw 0;
+    padding-top: 20vw;
 }
 
 @media screen and (min-width: 768px) and (max-width:1023px) {
     .photo-grid {
-        padding-top: 88px;
-        margin: 0 24px 0;
-        gap: 16px;
+        padding-top: 11.46vw;
+        margin: 0 3.125vw 0;
+        gap: 2.08vw;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width:1279px) {
     .photo-grid {
-        padding-top: 92px;
-        margin: 0 48px 0;
-        gap: 14px;
+        padding-top: 8.98vw;
+        margin: 0 4.69vw 0;
+        gap: 1.37vw;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .photo-grid {
-        padding-top: 92px;
-        margin: 0 48px 0;
-        gap: 16px;
+        padding-top: 7.19vw;
+        margin: 0 3.75vw 0;
+        gap: 1.25vw;
     }
 }

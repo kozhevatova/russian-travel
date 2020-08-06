@@ -2,22 +2,30 @@
     display: flex;
     justify-content: space-between;
     min-height: 42px;
-    width: calc(100% - 32px);
-    padding: 16px 16px 0;
+    width: calc(100% - 10vw);
+    padding: 5vw 5vw 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px)
 {
     .header {
-        width: calc(100% - 48px);
-        padding: 28px 24px 0;
+        width: calc(100% - 6.26vw);
+        padding: 3.65vw 3.13vw 0;
     }
 }
 
-@media screen and (min-width: 1024px)
+@media screen and (min-width: 1024px) and (max-width: 1279px)
 {
     .header {
-        width: calc(100% - 96px);
-        padding: 28px 48px 0;
+        width: calc(100% - 9.38vw);
+        padding: 2.73vw 4.69vw 0;
+    }
+}
+
+@media screen and (min-width: 1280px)
+{
+    .header {
+        width: calc(100% - 7.5vw);
+        padding: 2.19vw 3.75vw 0;
     }
 }
