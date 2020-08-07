@@ -1,6 +1,4 @@
 .intro__text {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.63;
@@ -20,15 +18,16 @@
 {
     .intro__text {
         margin: 5.21vw 0 4.17vw;
-        max-width: 598px;
+        max-width: 720px;
         min-height: 209px;
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px)
+@media screen and (min-width: 1024px)
 {
     .intro__text {
         margin: 3.91vw 0 3.125vw;
+        max-width: 690px;
     }
 }
 

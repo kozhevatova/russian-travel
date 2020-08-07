@@ -2,30 +2,30 @@
     display: flex;
     justify-content: space-between;
     min-height: 42px;
-    width: calc(100% - 10vw);
     padding: 5vw 5vw 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px)
+@media screen and (min-width: 768px)
 {
     .header {
-        width: calc(100% - 6.26vw);
-        padding: 3.65vw 3.13vw 0;
+        padding: 3.65vw 0 0;
+        max-width: 93.75%;
+        margin: 0 auto;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px)
 {
     .header {
-        width: calc(100% - 9.38vw);
-        padding: 2.73vw 4.69vw 0;
+        padding: 2.73vw 0 0;
+        max-width: 90.625%;
     }
 }
 
 @media screen and (min-width: 1280px)
 {
     .header {
-        width: calc(100% - 7.5vw);
-        padding: 2.19vw 3.75vw 0;
+        padding: 2.19vw 0 0;
+        max-width: 1184px;
     }
 }

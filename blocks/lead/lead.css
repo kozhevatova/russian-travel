@@ -25,6 +25,6 @@
 @media screen and (min-width: 1280px) {
     .lead {
         padding: 4.375vw 0 0 0;
-        max-width: 76.875vw;
+        max-width: 984px;
     }
 }

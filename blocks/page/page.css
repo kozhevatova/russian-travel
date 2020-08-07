@@ -1,4 +1,6 @@
 .page {
     background-color: #2a2c2f;
     min-width: 320px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
 }

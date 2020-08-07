@@ -10,8 +10,8 @@
         grid-column: 1;
         margin: 0;
         /* max-width: 340px; */
-        /* max-width: 44.27vw; */
-        max-width: 43vw;
+        max-width: 44.27vw;
+        /* max-width: 43vw; */
     }
 }
 
@@ -24,7 +24,6 @@
 
 @media screen and (min-width: 1280px) {
     .place__image {
-        /* max-width: 460px; */
-        max-width: 35.94vw;
+        max-width: 460px;
     }
 }
