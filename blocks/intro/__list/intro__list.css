@@ -1,6 +1,30 @@
 .intro__list {
     list-style: none;
-    margin: 0;
+    margin: 0 0 20vw;
     padding: 0;
     width: 100%;
+}
+
+@media screen and (min-width: 425px) {
+    .intro__list {
+        margin-bottom: 15,73vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .intro__list {
+        margin-bottom: 11.46vw;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1279px) {
+    .intro__list {
+        margin-bottom: 8.98vw;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .intro__list {
+        margin-bottom: 9.35%;
+    }
 }

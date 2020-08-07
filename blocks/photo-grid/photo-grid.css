@@ -3,18 +3,10 @@
     grid-template-columns: repeat(auto-fit, minmax(284px,1fr));
     gap: 3.75vw;
     margin: 0 5vw 0;
-    padding-top: 20vw;
-}
-
-@media screen and (min-width: 425px) {
-    .photo-grid {
-        padding-top: 15.73vw;
-    }
 }
 
 @media screen and (min-width: 768px) {
     .photo-grid {
-        padding-top: 11.46vw;
         margin: 0 auto;
         gap: 2.08vw;
         max-width: 93.75vw;
@@ -23,7 +15,6 @@
 
 @media screen and (min-width: 1024px) and (max-width:1279px) {
     .photo-grid {
-        padding-top: 8.98vw;
         gap: 1.37vw;
         max-width: 90.625vw;
     }
@@ -31,8 +22,7 @@
 
 @media screen and (min-width: 1280px) {
     .photo-grid {
-        padding-top: 7.19vw;
-        gap: 1.25vw;
+        gap: 16px;
         max-width: 1184px;
     }
 }
