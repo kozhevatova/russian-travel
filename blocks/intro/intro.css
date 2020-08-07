@@ -8,25 +8,30 @@
     color: #fff;
 }
 
-@media screen and (min-width: 768px) and (max-width:1023px) {
+@media screen and (min-width: 425px) {
+    .intro {
+        padding-top: 15vw;
+    }
+}
+
+@media screen and (min-width: 768px){
     .intro {
         padding-top: 11.46vw;
-        margin: 0 3.125% 0;
+        margin: 0 auto;
+        max-width: 93.75vw;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width:1279px) {
     .intro {
         padding-top: 8.98vw;
-        margin: 0 4.69% 0;
-        max-width: 690px;
+        max-width: 90.625vw;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .intro {
         padding-top: 7.19vw;
-        margin: 0 11.56% 0;
-        max-width: 690px;
+        max-width: 76.875vw;
     }
 }

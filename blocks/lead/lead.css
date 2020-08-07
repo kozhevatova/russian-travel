@@ -4,16 +4,27 @@
     justify-content: center;
     align-items: center;
     padding: 15vw 0 0 0;
+    margin: 0 auto;
+    max-width: 984px;
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .lead {
+        padding: 6.25vw 0 0 0;
+    }
 }
 
 @media screen and (min-width: 1024px) and (max-width:1279px) {
     .lead {
-        margin: 0 4.69% 0;
+        padding: 4.69vw 0 0 0;
+        max-width: 90.625vw;
+        
     }
 }
 
 @media screen and (min-width: 1280px) {
     .lead {
-        margin: 0 11.56% 0;
+        padding: 4.375vw 0 0 0;
+        max-width: 76.875vw;
     }
 }

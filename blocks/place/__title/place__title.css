@@ -8,6 +8,9 @@
     line-height: 1.09;
     margin: 0 5vw 0;
     padding: 0;
+    align-self: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (min-width: 768px) and (max-width:1023px) {
@@ -15,8 +18,7 @@
         font-size: 42px;
         line-height: 1.1;
         margin: 0 0 6.25vw 0;
-        /* max-width: 340px; */
-        max-width: 44.27vw;
+        max-width: 43vw;
     }
 }
 
@@ -25,7 +27,6 @@
         font-size: 72px;
         line-height: 1.06;
         margin: 0 0 4.69vw 0;
-        /* max-width: 440px; */
         max-width: 42.97vw;
     }
 }

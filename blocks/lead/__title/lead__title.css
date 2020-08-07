@@ -8,14 +8,16 @@
     text-align: center;
     margin: 0;
     padding: 0;
-    max-width: 90%;
+    max-width: 288px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px){
     .lead__title {
         font-size: 52px;
         line-height: 1.04;
-        max-width: 91.82%;
+        max-width: 400px;
     }
 }
 
@@ -23,7 +25,7 @@
     .lead__title {
         font-size: 96px;
         line-height: 1.04;
-        max-width: 93.75%;
+        max-width: 720px;
     }
 }
 
@@ -31,7 +33,6 @@
     .lead__title {
         font-size: 96px;
         line-height: 1.04;
-        max-width: 70.31%;
     }
 }
 
@@ -39,6 +40,5 @@
     .lead__title {
         font-size: 96px;
         line-height: 1.04;
-        max-width: 60%;
     }
 }

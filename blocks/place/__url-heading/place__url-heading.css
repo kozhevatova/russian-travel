@@ -6,6 +6,8 @@
     line-height: 1;
     margin: 0px 0 3.75vw 0;
     padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (min-width: 768px) and (max-width:1023px) {

@@ -8,6 +8,16 @@
     text-align: center;
     padding: 0;
     margin: 5vw 0 12.5vw;
+    max-width: 288px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px){
+    .lead__subtitle {
+        font-size: 20px;
+        max-width: 330px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -15,6 +25,7 @@
         font-size: 30px;
         line-height: 1.2;
         margin: 4.17vw 0 7.29vw;
+        max-width: 640px;
     }
 }
 

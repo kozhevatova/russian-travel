@@ -11,6 +11,16 @@
     position: absolute;
     bottom: 16.5%;
     left: 5%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 425px) {
+    .cover__subtitle {
+        max-width: 64vw;
+        bottom: 23%;
+        left: 18%;
+    }
 }
 
 @media screen and (min-width: 768px)

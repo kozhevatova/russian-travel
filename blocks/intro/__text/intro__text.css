@@ -6,12 +6,22 @@
     line-height: 1.63;
     margin: 12.5vw 0 10vw;
     padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px)
+@media screen and (min-width: 425px) {
+    .intro__text {
+        margin: 8.86vw 0 7.09vw;
+    }
+}
+
+@media screen and (min-width: 768px)
 {
     .intro__text {
         margin: 5.21vw 0 4.17vw;
+        max-width: 598px;
+        min-height: 209px;
     }
 }
 

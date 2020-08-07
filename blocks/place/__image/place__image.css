@@ -10,7 +10,8 @@
         grid-column: 1;
         margin: 0;
         /* max-width: 340px; */
-        max-width: 44.27vw;
+        /* max-width: 44.27vw; */
+        max-width: 43vw;
     }
 }
 

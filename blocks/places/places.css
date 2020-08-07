@@ -3,4 +3,34 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 20vw;
+    padding-bottom: 20vw;
+}
+
+@media screen and (min-width: 425px) {
+    .places {
+        padding-top: 12vw;
+        padding-bottom: 12vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .places {
+        padding-top: 11.46vw;
+        padding-bottom: 11.46vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .places {
+        padding-top: 8.98vw;
+        padding-bottom: 8.98vw;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .places {
+        padding-top: 7.19vw;
+        padding-bottom: 7.19vw;
+    }
 }

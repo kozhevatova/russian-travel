@@ -12,8 +12,17 @@
     position: absolute;
     top: 16.5%;
     left: 5%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
+@media screen and (min-width: 425px) {
+    .cover__title {
+        max-width: 60vw;
+        top: 23%;
+        left: 20%;
+    }
+}
 
 @media screen and (min-width: 768px)
 {

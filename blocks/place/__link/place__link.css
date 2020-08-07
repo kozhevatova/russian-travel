@@ -8,6 +8,8 @@
     padding: 0;
     color: #fff;
     transition: opacity 0.5s linear;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .place__link:hover {

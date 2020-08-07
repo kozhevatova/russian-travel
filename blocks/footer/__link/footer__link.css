@@ -10,10 +10,18 @@
     font-size: 24px;
     line-height: 1;
     transition: opacity 0.5s linear;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .footer__link:hover {
     opacity: 0.8;
+}
+
+@media screen and (min-width: 425px) {
+    .footer__link {
+        margin: 0 0 8vw 0;
+    }
 }
 
 @media screen and (min-width: 768px)
@@ -28,11 +36,13 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px)
 {
     .footer__link {
+        margin: 0 1.76vw 0 0;
     }
 }
 
 @media screen and (min-width: 1280px)
 {
     .footer__link {
+        margin: 0 1.41vw 0 0;
     }
 }

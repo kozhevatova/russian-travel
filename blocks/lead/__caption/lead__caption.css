@@ -10,6 +10,8 @@
     align-self: start;
     padding: 0;
     margin: 2.5vw 0 0 5vw;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (min-width: 768px) and (max-width:1023px) {

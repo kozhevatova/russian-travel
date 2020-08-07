@@ -2,54 +2,44 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(3, minmax(min-content, max-content));
+    justify-content: start;
+    align-items: start;
     color: #fff;
-    margin-top: 20vw;
-    justify-content: center;
+    margin-bottom: 15vw;
     align-self: center;
+}
+
+.place:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 425px) {
+    .place {
+        margin-bottom: 12vw;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .place {
-        margin: 0 3.125vw 9.375vw;
+        margin: 0 auto 9.375vw;
         grid-template-columns: repeat(2, minmax(min-content, max-content));
         column-gap: 3.65vw;
-    }
-
-    .place:first-child {
-        margin-top: 11.46vw;
-    }
-
-    .place:last-child {
-        margin-bottom: 11.46vw;
+        max-width: 93.75vw;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .place {
-        margin: 0 4.69vw 7.81vw;
+        margin: 0 auto 7.81vw;
         column-gap: 3.125vw;
-    }
-
-    .place:first-child {
-        margin-top: 8.98vw;
-    }
-
-    .place:last-child {
-        margin-bottom: 8.98vw;
+        max-width: 90.625vw;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .place {
-        margin: 0 11.56vw 6.25vw;
+        margin: 0 auto 6.25vw;
         column-gap: 3.125vw;
-    }
-
-    .place:first-child {
-        margin-top: 7.19vw;
-    }
-
-    .place:last-child {
-        margin-bottom: 7.19vw;
+        max-width: 76.875vw;
     }
 }
