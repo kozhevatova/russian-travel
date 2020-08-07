@@ -4,21 +4,17 @@
     font-size: 32px;
     line-height: 1.09;
     text-align: center;
-    /* margin: 0 0 5%; */
-    margin: 0;
+    max-width: 288px;
+    margin: 10.31vw 0 5vw;
     padding: 0;
-    position: absolute;
-    top: 16.5%;
-    left: 5%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (min-width: 425px) {
     .cover__title {
-        max-width: 60vw;
-        top: 23%;
-        left: 20%;
+        font-size: 40px;
+        margin: 13.31vw 0 3vw;
     }
 }
 
@@ -27,29 +23,21 @@
     .cover__title {
         font-size: 72px;
         line-height: 1.06;
-        /* margin: 0 0 4.17vw; */
-        max-width: 72.92vw;
-        top: 23.96%;
-        left: 13.54%;
+        max-width: 560px;
+        margin: 14.97vw 0 4.17vw;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px)
 {
     .cover__title {
-        /* margin: 0 0 3.125vw; */
-        max-width: 54.69vw;
-        top: 30.47%;
-        left: 22.66%;
+        margin: 19.04vw 0 3.125vw;
     }
 }
 
 @media screen and (min-width: 1280px)
 {
     .cover__title {
-        /* margin: 0 0 2.03vw; */
-        max-width: 43.75vw;
-        top: 33.11%;
-        left: 26.35%;
+        margin: 20.69% 0 2.7%;
     }
 }
